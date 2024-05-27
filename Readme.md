@@ -28,8 +28,8 @@ The application is built using C# and Entity Framework for database operations.
 1. Clone repository:
 
 ```Clone the repository
-git clone https://github.com/al_swe/MiniProjectCW2122
-cd AssetManagement
+git clone https://github.com/al-swe/Asset-Tracker
+cd Asset-Tracker
 ```
 
 2. Install dependencies:
