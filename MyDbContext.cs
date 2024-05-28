@@ -11,7 +11,8 @@ namespace MiniProjectCW2122
     internal class MyDbContext : DbContext
     {
         // Change "YOUR_LOCAL_DB" and "NAME" to fit your project
-        string connectionString = "Data Source=(localdb)\\YOUR_LOCAL_DB;Initial Catalog=NAME;Integrated Security=True";
+        //string connectionString = "Data Source=(localdb)\\YOUR_LOCAL_DB;Initial Catalog=NAME;Integrated Security=True";
+        string connectionString = "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=Assets;Integrated Security=True";
 
         public DbSet<Asset> Assets { get; set; }
 
